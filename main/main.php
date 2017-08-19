@@ -27,20 +27,20 @@ $register_num="886-06-00823";
 <meta name="description" content="'<?=$short_name?> 부동산'은 공인중개사의 안전하고 전문적인 중개서비스를 반값에 제공합니다"/>
 <meta property="og:description" content="'<?=$short_name?> 부동산'은 공인중개사의 안전하고 전문적인 중개서비스를 반값에 제공합니다">
 <title><?=$sname?></title>
-<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="../js/inc.js"></script>
-<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="../js/jquery.flexslider.js"></script>
-<script type="text/javascript" src="../js/jquery.fullPage.js"></script>
-<script type="text/javascript" src="../js/jquery.slimscroll.js"></script>
+<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/js/inc.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="/js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="/js/jquery.slimscroll.js"></script>
 <script src="../ISAF/Libs/js/frmCheck.js" type="text/javascript"></script>
-<link href="../css/inc.css" rel="stylesheet" type="text/css" />
-<link href="../css/style_phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:1024px)" />
-<link href="../css/style_pc.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)" />
-<link href="../css/board.css" rel="stylesheet" type="text/css" />
-<link href="../css/flexslider.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="../css/font.css" />
+<link href="/css/inc.css" rel="stylesheet" type="text/css" />
+<link href="/css/style_phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:1024px)" />
+<link href="/css/style_pc.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)" />
+<link href="/css/board.css" rel="stylesheet" type="text/css" />
+<link href="/css/flexslider.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/css/font.css" />
 <link rel="stylesheet" href="../ISAF/Libs/js/jquery-ui/css/smoothness/jquery-ui-1.10.3.custom.css" />
 <!--[if lt IE 9]>
 <link type="text/css" href="../css/style_pc.css" rel="stylesheet" type="text/css" />
