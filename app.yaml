@@ -33,8 +33,5 @@ handlers:
 - url: /main
   static_dir: main
 
-- url: /main/.*
-  script: /main/main.php
-
 - url: /.*
   script: /main/main.php
