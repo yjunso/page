@@ -22,7 +22,7 @@ $register_num="886-06-00823";
 <meta property="og:type" content="website" />
 <meta property="og:title" content="<?=$sname?>">
 <meta property="og:site_name" content="<?=$sname?>">
-<meta property="og:image" content="/images/inc/banman.jpg" />
+<meta property="og:image" content="../images/inc/banman.jpg" />
 <meta name="keyword" content="정자동부동산, 정자역부동산, 분당부동산, 부동산수수료, 중개수수료">
 <meta name="description" content="'<?=$short_name?> 부동산'은 공인중개사의 안전하고 전문적인 중개서비스를 반값에 제공합니다"/>
 <meta property="og:description" content="'<?=$short_name?> 부동산'은 공인중개사의 안전하고 전문적인 중개서비스를 반값에 제공합니다">
@@ -46,7 +46,7 @@ $register_num="886-06-00823";
 <link type="text/css" href="../css/style_pc.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="../css/font_ie.css" />
 <![endif]-->
-<link rel="shortcut icon" href="/images/inc/favicon.ico" />
+<link rel="shortcut icon" href="../images/inc/favicon.ico" />
 <!--<script src="../../dmaps.daum.net/map_js_init/postcode.v2.js"></script>-->
 
 <!--네이버 애널리틱스-->
@@ -159,7 +159,7 @@ function kakaoOnline(){
 	</div>
 	<div class="gnb_area">
 		<div class="box1">
-			<h1 class="logo"><a href="/main/main.php"><img src="/images/inc/h_logo.png" alt="<?=$sname?>"></a></h1>
+			<h1 class="logo"><a href="/main/main.php"><img src="../images/inc/h_logo.png" alt="<?=$sname?>"></a></h1>
 			   			<ul class="gnb center">
 	<li class="m_1">
 	<a href="../sub1/goods_find.html" class="dp1">부동산 구하기<span class="icon"></span></a>
@@ -232,7 +232,7 @@ function kakaoOnline(){
                         <a href="#nav" class="js-toggle-nav nav_btn open pc_hide"></a>
 			<ul class="sns_list">
 				<li class="st1">
-                    <a href="javascript:void(0);"><img src="/images/inc/icon_katalk.png" alt="카카오톡" /></a>
+                    <a href="javascript:void(0);"><img src="../images/inc/icon_katalk.png" alt="카카오톡" /></a>
                     <div class="pop_sub kt">
                         <span class="arrow"></span>
                         <div class="inner">
@@ -251,10 +251,10 @@ function kakaoOnline(){
                         </div>
                     </div>
                 </li>
-				<li class="st2"><a href="" target="_blank"><img src="/images/inc/icon_blog.png" alt="블로그" /></a></li>
+				<li class="st2"><a href="" target="_blank"><img src="../images/inc/icon_blog.png" alt="블로그" /></a></li>
 				<li class="st4">
-                	 <a class="phone_tel" href="tel:<?=$tel?>"><img src="/images/inc/icon_tel.png" alt="전화" /></a>
-					<a class="pc_tel" href="javascript:void(0);"><img src="/images/inc/icon_tel.png" alt="전화" /></a>
+                	 <a class="phone_tel" href="tel:<?=$tel?>"><img src="../images/inc/icon_tel.png" alt="전화" /></a>
+					<a class="pc_tel" href="javascript:void(0);"><img src="../images/inc/icon_tel.png" alt="전화" /></a>
                     <div class="pop_sub tel">
                         <span class="arrow"></span>
                         <div class="inner">
@@ -264,7 +264,7 @@ function kakaoOnline(){
                         </div>
                     </div>
                 </li>
-				<li class="st3" data-menuanchor="5thPage"><a href="/main/main.php#5thPage"><img src="/images/inc/icon_loca.png" alt="오시는길" /></a></li>
+				<li class="st3" data-menuanchor="5thPage"><a href="/main/main.php#5thPage"><img src="../images/inc/icon_loca.png" alt="오시는길" /></a></li>
 			</ul>
 		</div>
 		<script type="text/javascript">
@@ -422,7 +422,7 @@ function kakaoOnline(){
 		<div id="section2" class="section main_bg2">
 			<div class="box1">
 				<p class="main_info"><strong class="st1">‘<?=$short_name?>’의 부동산 중개 수수료</strong>는 법정 수수료의 50% 이나<br />부가가체세를 포함하고 있어 <strong class="st2">실제 50% 이상 저렴</strong>합니다</p>
-				<div><img src="/images/main/p3.png" /></div>
+				<div><img src="../images/main/p3.png" /></div>
 			</div>
 		</div>
 		<!--section3 -->
@@ -554,17 +554,17 @@ function kakaoOnline(){
 						<li class="pic_area">
 						<div class="pic_l">
 							<div>
-								<img src="/images/main/loca_pic1.jpg" />
+								<img src="../images/main/loca_pic1.jpg" />
 								<p class="tt">① 분당선 정자역 3번출구</p>
 								<p class="arrow right"></p>
 							</div>
 							<div>
-								<img src="/images/main/loca_pic2.jpg" />
+								<img src="../images/main/loca_pic2.jpg" />
 								<p class="tt">② 좌측 킨스타워 3층</p>
 								<p class="arrow right"></p>
 							</div>
 							<div>
-								<img src="/images/main/loca_pic3.jpg" />
+								<img src="../images/main/loca_pic3.jpg" />
 								<p class="tt">③ <?=$short_name?> 부동산</p>
 							</div>
 						</div>
@@ -1156,7 +1156,7 @@ function kakaoOnline(){
 <!-- l-main end-->
 <div id="LeftNavigation" class="l-nav">
 	<div class="nav_top">
-        <p class="nav_logo"><img src="/images/inc/h_logo.png" /></p>
+        <p class="nav_logo"><img src="../images/inc/h_logo.png" /></p>
         <a href="#" class="js-toggle-nav nav_close"></a>
     </div>
 	<ul class="nav_tit">

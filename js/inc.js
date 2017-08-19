@@ -383,7 +383,7 @@ $(document).ready(function($){
 			$(this).addClass('on');
 			$(".sel_list").slideUp(100);
 			$(this).next(".sel_list").slideDown(200);
-			//$(this).children(".arrow").children("img").attr('src','../images/icon/arrow_t.gif');
+			//$(this).children(".arrow").children("img").attr('src','..../images/icon/arrow_t.gif');
 		}else{
 			$(this).next(".sel_list").slideUp(100);
 		}
