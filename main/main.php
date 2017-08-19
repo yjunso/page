@@ -291,7 +291,7 @@ function kakaoOnline(){
 		<div id="section0" class="section main_bg0">
 				<div class="main_visu_main">
 					<ul class="slides">
-						<li class="st1">
+						<li >
 						<div class="box1">
 							<div class="slo_area">
 								<p class="slo_t1">부동산 중개 수수료</p>
@@ -305,6 +305,7 @@ function kakaoOnline(){
 							</ul>
 						</div>
 						</li>
+						<!--
 						<li class="st2">
 						<div class="box1">
 							<div class="slo_area">
@@ -333,6 +334,7 @@ function kakaoOnline(){
 							</ul>
 						</div>
 						</li>
+						-->
 					</ul>
 				</div>
 				<!--<script type="text/javascript">
