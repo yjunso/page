@@ -29,6 +29,9 @@ handlers:
   
 - url: /online
   static_dir: online
+  
+- url: /main
+  static_dir: main
 
 - url: /.*
   script: /main/main.php
