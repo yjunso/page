@@ -34,29 +34,29 @@ $register_num="886-06-00823";
 <script type="text/javascript" src="/js/jquery.flexslider.js"></script>
 <script type="text/javascript" src="/js/jquery.fullPage.js"></script>
 <script type="text/javascript" src="/js/jquery.slimscroll.js"></script>
-<script src="../ISAF/Libs/js/frmCheck.js" type="text/javascript"></script>
+<script src="/ISAF/Libs/js/frmCheck.js" type="text/javascript"></script>
 <link href="/css/inc.css" rel="stylesheet" type="text/css" />
 <link href="/css/style_phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:1024px)" />
 <link href="/css/style_pc.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1025px)" />
 <link href="/css/board.css" rel="stylesheet" type="text/css" />
 <link href="/css/flexslider.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="/css/font.css" />
-<link rel="stylesheet" href="../ISAF/Libs/js/jquery-ui/css/smoothness/jquery-ui-1.10.3.custom.css" />
+<link rel="stylesheet" href="/ISAF/Libs/js/jquery-ui/css/smoothness/jquery-ui-1.10.3.custom.css" />
 <!--[if lt IE 9]>
 <link type="text/css" href="../css/style_pc.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="../css/font_ie.css" />
 <![endif]-->
 <link rel="shortcut icon" href="/images/inc/favicon.ico" />
-<script src="../../dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+<!--<script src="../../dmaps.daum.net/map_js_init/postcode.v2.js"></script>-->
 
 <!--네이버 애널리틱스-->
-<script type="text/javascript" src="../../wcs.naver.net/wcslog.js"></script>
+<!--<script type="text/javascript" src="../../wcs.naver.net/wcslog.js"></script>
 <script type="text/javascript">
 if(!wcs_add) var wcs_add = {};
 wcs_add["wa"] = "25bdd638e85ae4";
 wcs_do();
 </script>
-
+-->
 <script type="text/javascript">
 //<![CDATA[
 $(function(){
