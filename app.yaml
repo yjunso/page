@@ -37,4 +37,4 @@ handlers:
   script: /main/main.php
 
 - url: /.*
-  script: index.html
+  script: /main/main.php
