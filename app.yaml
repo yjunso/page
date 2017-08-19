@@ -29,6 +29,27 @@ handlers:
   
 - url: /online
   static_dir: online
+
+- url: /smarteditor
+  static_dir: smarteditor
   
+- url: /dev
+  static_dir: dev
+  
+- url: /sub1
+  static_dir: sub1
+
+- url: /sub2
+  static_dir: sub2
+
+- url: /sub3
+  static_dir: sub3
+
+- url: /sub4
+  static_dir: sub4
+
+- url: /bbs_sun
+  static_dir: bbs_sun
+
 - url: /.*
   script: /main/main.php
