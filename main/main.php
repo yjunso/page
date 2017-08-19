@@ -22,7 +22,7 @@ $register_num="886-06-00823";
 <meta property="og:type" content="website" />
 <meta property="og:title" content="<?=$sname?>">
 <meta property="og:site_name" content="<?=$sname?>">
-<meta property="og:image" content="../images/inc/banman.jpg" />
+<meta property="og:image" content="/images/inc/banman.jpg" />
 <meta name="keyword" content="정자동부동산, 정자역부동산, 분당부동산, 부동산수수료, 중개수수료">
 <meta name="description" content="'<?=$short_name?> 부동산'은 공인중개사의 안전하고 전문적인 중개서비스를 반값에 제공합니다"/>
 <meta property="og:description" content="'<?=$short_name?> 부동산'은 공인중개사의 안전하고 전문적인 중개서비스를 반값에 제공합니다">
@@ -46,7 +46,7 @@ $register_num="886-06-00823";
 <link type="text/css" href="../css/style_pc.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="../css/font_ie.css" />
 <![endif]-->
-<link rel="shortcut icon" href="../images/inc/favicon.ico" />
+<link rel="shortcut icon" href="/images/inc/favicon.ico" />
 <script src="../../dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 
 <!--네이버 애널리틱스-->
