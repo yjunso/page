@@ -148,7 +148,7 @@ function kakaoOnline(){
 		<div class="box1">
 			<ul class="left_menu">
 				<li class="st1"><a href="../guide/sitemap.html">전체메뉴</a></li>
-				<li class="st2"><a href="main.php">홈</a></li>
+				<li class="st2"><a href="/main/main.php">홈</a></li>
 				<li class="st3" id="bookmark"><a href="javascript:void();">즐겨찾기</a></li>
 			</ul>
 			<ul class="right_menu">
@@ -159,7 +159,7 @@ function kakaoOnline(){
 	</div>
 	<div class="gnb_area">
 		<div class="box1">
-			<h1 class="logo"><a href="main.php"><img src="../images/inc/h_logo.png" alt="<?=$sname?>"></a></h1>
+			<h1 class="logo"><a href="/main/main.php"><img src="/images/inc/h_logo.png" alt="<?=$sname?>"></a></h1>
 			   			<ul class="gnb center">
 	<li class="m_1">
 	<a href="../sub1/goods_find.html" class="dp1">부동산 구하기<span class="icon"></span></a>
@@ -232,7 +232,7 @@ function kakaoOnline(){
                         <a href="#nav" class="js-toggle-nav nav_btn open pc_hide"></a>
 			<ul class="sns_list">
 				<li class="st1">
-                    <a href="javascript:void(0);"><img src="../images/inc/icon_katalk.png" alt="카카오톡" /></a>
+                    <a href="javascript:void(0);"><img src="/images/inc/icon_katalk.png" alt="카카오톡" /></a>
                     <div class="pop_sub kt">
                         <span class="arrow"></span>
                         <div class="inner">
@@ -251,20 +251,20 @@ function kakaoOnline(){
                         </div>
                     </div>
                 </li>
-				<li class="st2"><a href="http://blog.naver.com/banmanneyo" target="_blank"><img src="../images/inc/icon_blog.png" alt="블로그" /></a></li>
+				<li class="st2"><a href="" target="_blank"><img src="/images/inc/icon_blog.png" alt="블로그" /></a></li>
 				<li class="st4">
-                	 <a class="phone_tel" href="tel:031-719-5085"><img src="../images/inc/icon_tel.png" alt="전화" /></a>
-					<a class="pc_tel" href="javascript:void(0);"><img src="../images/inc/icon_tel.png" alt="전화" /></a>
+                	 <a class="phone_tel" href="tel:<?=$tel?>"><img src="/images/inc/icon_tel.png" alt="전화" /></a>
+					<a class="pc_tel" href="javascript:void(0);"><img src="/images/inc/icon_tel.png" alt="전화" /></a>
                     <div class="pop_sub tel">
                         <span class="arrow"></span>
                         <div class="inner">
-							<p class="tel1">Tel. <span>031-719-5085/6</span></p>
-							<p class="tel2">H.P. <span>010-5102-5085</span></p>
-							<p class="tel3">H.P. <span>010-2559-5086</span></p>
+							<p class="tel1">Tel. <span><?=$tel?></span></p>
+							<p class="tel2">H.P. <span><?=$cell_phone?></span></p>
+							
                         </div>
                     </div>
                 </li>
-				<li class="st3" data-menuanchor="5thPage"><a href="main.php#5thPage"><img src="../images/inc/icon_loca.png" alt="오시는길" /></a></li>
+				<li class="st3" data-menuanchor="5thPage"><a href="/main/main.php#5thPage"><img src="/images/inc/icon_loca.png" alt="오시는길" /></a></li>
 			</ul>
 		</div>
 		<script type="text/javascript">
@@ -422,7 +422,7 @@ function kakaoOnline(){
 		<div id="section2" class="section main_bg2">
 			<div class="box1">
 				<p class="main_info"><strong class="st1">‘<?=$short_name?>’의 부동산 중개 수수료</strong>는 법정 수수료의 50% 이나<br />부가가체세를 포함하고 있어 <strong class="st2">실제 50% 이상 저렴</strong>합니다</p>
-				<div><img src="../images/main/p3.png" /></div>
+				<div><img src="/images/main/p3.png" /></div>
 			</div>
 		</div>
 		<!--section3 -->
@@ -554,17 +554,17 @@ function kakaoOnline(){
 						<li class="pic_area">
 						<div class="pic_l">
 							<div>
-								<img src="../images/main/loca_pic1.jpg" />
+								<img src="/images/main/loca_pic1.jpg" />
 								<p class="tt">① 분당선 정자역 3번출구</p>
 								<p class="arrow right"></p>
 							</div>
 							<div>
-								<img src="../images/main/loca_pic2.jpg" />
+								<img src="/images/main/loca_pic2.jpg" />
 								<p class="tt">② 좌측 킨스타워 3층</p>
 								<p class="arrow right"></p>
 							</div>
 							<div>
-								<img src="../images/main/loca_pic3.jpg" />
+								<img src="/images/main/loca_pic3.jpg" />
 								<p class="tt">③ <?=$short_name?> 부동산</p>
 							</div>
 						</div>
@@ -1122,7 +1122,6 @@ function kakaoOnline(){
 
 </body>
 
-<!-- Mirrored from www.banman.net/main/main.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Aug 2017 05:31:37 GMT -->
 </html>
 
 </div>
@@ -1157,7 +1156,7 @@ function kakaoOnline(){
 <!-- l-main end-->
 <div id="LeftNavigation" class="l-nav">
 	<div class="nav_top">
-        <p class="nav_logo"><img src="../images/inc/h_logo.png" /></p>
+        <p class="nav_logo"><img src="/images/inc/h_logo.png" /></p>
         <a href="#" class="js-toggle-nav nav_close"></a>
     </div>
 	<ul class="nav_tit">
@@ -1181,7 +1180,7 @@ function kakaoOnline(){
 	</ul>
 	</li>
 	<li data-menuanchor="4thPage" class="m_3">
-	<a href="main.php#4thPage" class="dp1">서비스소개<span class="icon"></span></a>
+	<a href="/main/main.php#4thPage" class="dp1">서비스소개<span class="icon"></span></a>
 	<ul class="dp2">
 		<li class="sm_1"><a href="../sub3/3_1.html">서비스소개<span class="icon"></span></a></li>
 		<!--<li class="sm_2"><a href="../sub3/3_2.php">부동산 구하는 방법<span class="icon"></span></a></li>
@@ -1198,11 +1197,11 @@ function kakaoOnline(){
         </ul>
     </li>-->
 	<li data-menuanchor="8thPage" class="m_4">
-	<a href="main.php#8thPage" class="dp1">도움말<span class="icon"></span></a>
+	<a href="/main/main.php#8thPage" class="dp1">도움말<span class="icon"></span></a>
 	<ul class="dp2">
-		<li class="sm_1"><a href="main.php#8thPage">서비스 이용 질문<span class="icon"></span></a></li>
-		<li class="sm_2"><a href="main.php#8thPage">부동산 구하기 질문<span class="icon"></span></a></li>
-		<li class="sm_3"><a href="main.php#8thPage">부동산 내놓기 질문<span class="icon"></span></a></li>
+		<li class="sm_1"><a href="/main/main.php#8thPage">서비스 이용 질문<span class="icon"></span></a></li>
+		<li class="sm_2"><a href="/main/main.php#8thPage">부동산 구하기 질문<span class="icon"></span></a></li>
+		<li class="sm_3"><a href="/main/main.php#8thPage">부동산 내놓기 질문<span class="icon"></span></a></li>
 	</ul>
 	</li>
 	<li class="m_member">
