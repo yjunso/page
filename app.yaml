@@ -34,4 +34,4 @@ handlers:
   static_dir: main
 
 - url: /.*
-  script: /main/main.php
+  script: index.html
