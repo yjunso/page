@@ -11,6 +11,24 @@ handlers:
   
 - url: /js
   static_dir: js
+  
+- url: /font
+  static_dir: font
+  
+- url: /ISAF
+  static_dir: ISAF
+
+- url: /dev
+  static_dir: dev
+  
+- url: /guide
+  static_dir: guide
+  
+- url: /member
+  static_dir: member
+  
+- url: /online
+  static_dir: online
 
 - url: /.*
   script: /main/main.php
